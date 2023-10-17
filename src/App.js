@@ -9,6 +9,7 @@ import Cuidados from './components/CuidadosMascotas';
 import Importancia from './components/ImportanciaMascotas';
 import Login from './components/Login';
 import Signup from './components/SignUp';
+import ReportarMascotas from './components/ReportarMascotas';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Adopcion-Responsable" element={<Adopcion />} />
         <Route path="/Cuidados-Mascotas" element={<Cuidados />} />
         <Route path="/Importancia-Mascotas" element={<Importancia />} />
+        <Route path="/Reportar-Mascotas" element={<ReportarMascotas />} />
         <Route path="/Como-Reporto" element={<ComoReporto />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Signup" element={<Signup />} />
