@@ -206,7 +206,7 @@ const ReportarMascotas = () => {
                         </div>
                     </div>
                     <div className=''>
-                        <label className='form-label'>Fotografía de tu Mascota</label>
+                        <label className='form-label'>Fotografía de tu Mascota (Si Aplica)</label>
                         <input required className={`form-control ${error ? 'border-danger' : null}`} type='file' onChange={handleChangeImg} />
                     </div>
                 </div>
@@ -216,7 +216,7 @@ const ReportarMascotas = () => {
         <div className='col-12'>
             {
                 imagen !== null ? (
-                    <div className='card row justify-content-center align-items-center'>
+                    <div className='card row justify-content-center align-items-center fondo-imagen'>
                         <img className='imagen card-img-top pt-2' src={imagen} alt="Vista previa de la imagen" />
                         <div className='card-body text-center'>
                             <h5 className='card-title'>Previsualización de imagen</h5>
